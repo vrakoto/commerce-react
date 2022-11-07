@@ -1,0 +1,31 @@
+aside {
+    width: var(--widthNavbar);
+    background-color: #FFF;
+    height: 100vh;
+}
+
+aside .header {
+    background-color: rgba(248, 249, 250, 1) !important;
+    color: gray;
+    text-align: center;
+}
+
+aside .header img {
+    border-radius: 50%;
+}
+
+aside .items {
+    margin: 15px;
+}
+
+aside .link {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: inherit !important;
+}
+
+aside .active {
+    background-color: #0d6efd;
+    color: #FFF !important;
+}
